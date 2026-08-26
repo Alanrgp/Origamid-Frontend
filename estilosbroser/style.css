@@ -1,0 +1,15 @@
+
+body{ 
+  color: seagreen;
+}
+
+a{ 
+  color:aqua;
+  margin:20px;
+}
+button{
+  margin:20px;
+}
+button:hover{
+  background-color: brown;
+}
