@@ -16,5 +16,19 @@ h1{
   padding: 20px;
   border: 4px solid #111;
   margin: 20px;
-  width:2000px;
+}
+
+#tema{ 
+  border: solid red;
+  margin: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+a{ 
+  background-color: seagreen;
+  border:solid blue;
+  margin: 20px;
+  padding: 15px;
+
 }
