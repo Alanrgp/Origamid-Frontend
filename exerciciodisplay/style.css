@@ -1,0 +1,45 @@
+body{ 
+  font: Arial;
+  margin: 50px;
+}
+h2{  
+  margin: 0px;
+}
+h1{ 
+  text-align:center;
+}
+
+span{ 
+  color: #febe01;
+}
+p{ 
+  color: #b2b2b2;
+}
+button{ 
+  background-color:#febe01;
+}
+
+.item1{ 
+  background:#111;
+  padding:30px;
+  margin:20px;
+  border-radius: 4px;
+  color: #fff;
+}
+ 
+.item2{ 
+  background:#111;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+a {
+  background: #febe01;
+  color: #332100;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
