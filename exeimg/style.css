@@ -1,0 +1,13 @@
+
+img{ 
+  max-width: 100%;/*Tenha 100% ocupado, mas não utarpasse seu tamanho*/
+
+  width:100%;/*Tenha sempre 100%*/
+
+  display:block;/*Elimina os espaços entre as img que padrão 4px*/
+}
+
+.foto{ 
+  width: 150px;
+}
+
