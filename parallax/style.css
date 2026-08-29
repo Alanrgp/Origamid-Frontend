@@ -1,0 +1,24 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{ 
+  font-size: 8vw;
+}
+.divPai{ 
+  width: 100%;
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color:white;
+}
+img{ 
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index:-1;;
+}
