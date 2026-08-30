@@ -1,0 +1,48 @@
+body, ul, li{ 
+  margin:0px;
+  padding: 0px;
+  font-family:Arial;
+  font-size: 30px;
+  list-style: none;
+}
+
+img{ 
+  max-width: 100%;
+  display: block;
+}
+a{ 
+  color: white;
+  text-decoration: none;
+}
+.header{ 
+  background-color: rgb(128, 45, 128);
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 20px;
+}
+
+.menu{
+  display: flex;
+}
+
+.menu li{ 
+  margin: 10px;
+}
+
+.menu li a { 
+  display: block;
+  padding:10px;
+}
+
+.flex { 
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex > div{ 
+  flex: 1 1 200px;
+  margin: 10px;
+}
