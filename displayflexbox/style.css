@@ -1,0 +1,38 @@
+body{ 
+  font-family: monospace;
+  color: #333;
+}
+
+h1{ 
+  text-align: center;
+  color: #333;
+}
+/*Display Block*/
+.container{
+  display: block;
+  max-width: 400px;
+  margin:0 auto;
+  border: solid 1px #ccc;
+}
+
+.Itens{ 
+  background: tomato;
+  text-align: center;
+  margin: 10px;
+  font-size: 1.5em;
+}
+/*Dispaly Flex*/
+.containerflex{
+  display: flex;
+  max-width: 400px;
+  margin: auto;
+  border:solid 1px #333;
+}
+
+/*Display Flex*/
+.displayflex{ 
+  display:flex;
+  border:solid 1px #333;
+  margin:auto;
+  max-width: 400px;
+}
