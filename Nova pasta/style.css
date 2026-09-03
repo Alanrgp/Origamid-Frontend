@@ -1,0 +1,26 @@
+body {
+  background-color: oklch(20.8% 0.042 265.755);
+}
+
+.container {
+  display: flex;
+}
+
+.container {
+  /*Caixa Pai*/
+  gap: 10px;
+  height: 600px;
+  /*flex-direction: row;  flex-direction: column;
+  flex-wrap: wrap; 
+   Queba de linha dos elementos elementos 
+   */
+   justify-content:center;/*Alinha os elementos filhos no eixo principal */
+   align-items:center;/*alinha os elementos filhos no eixo secundário */
+  background-color: oklch(40.1% 0.17 325.612);
+}
+
+.items {
+  width: 150px;
+  height: 150px;
+  background-color: oklch(50% 0.1 200);
+}
