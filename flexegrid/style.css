@@ -1,20 +1,31 @@
-body{
-  background-color:brown;
-  margin:0;
+body{ 
+  font-family:Arial;
 }
 
-.container{
-  display:flex;
-  gap: 10px;
-  height: 600px;
-  background-color:aqua;
-  flex-direction:row-reverse;
-
+h1{ 
+  text-align:center;
 }
-
-.items{
-  background-color:blueviolet;
+h2{ 
+  margin-top:0px;
+}
+.comprar{
+  background-color:#a8f;
+  color:#103;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration:none;
+}
+.items{ 
+  background-color:#f7f7f7;
+  border: 1px solid #e7e7e7;
+  padding: 20px;
   margin: 20px;
-  height: 200px;
-  width: 200px;
+  border-radius: 5px;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:50% 50%;
+
+
 }
